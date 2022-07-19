@@ -8,7 +8,7 @@ Section 9 covered:
 - [x] Extracting Dynamic Params
 - [x] Loading Product Detail Data
 - [x] Rendering the Product Detail View
-- [ ] Passing Data with POST Requests
+- [x] Passing Data with POST Requests
 - [ ] Adding a Cart Model
 - [ ] Using Query Params
 - [ ] Pre-Populating the Edit Product Page with Data
