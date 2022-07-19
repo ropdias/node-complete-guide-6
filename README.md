@@ -6,7 +6,7 @@ Section 9 covered:
 
 - [x] Adding the Product ID to the Path
 - [x] Extracting Dynamic Params
-- [ ] Loading Product Detail Data
+- [x] Loading Product Detail Data
 - [ ] Rendering the Product Detail View
 - [ ] Passing Data with POST Requests
 - [ ] Adding a Cart Model
