@@ -4,7 +4,7 @@ Examples from the **"Section 9: Dynamic Routes & Advanced Models"** of the cours
 
 Section 9 covered:
 
-- [ ] Adding the Product ID to the Path
+- [x] Adding the Product ID to the Path
 - [ ] Extracting Dynamic Params
 - [ ] Loading Product Detail Data
 - [ ] Rendering the Product Detail View
