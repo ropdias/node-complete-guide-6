@@ -13,7 +13,7 @@ Section 9 covered:
 - [x] Using Query Params
 - [x] Pre-Populating the Edit Product Page with Data
 - [x] Linking to the Edit Page
-- [ ] Editing the Product Data
+- [x] Editing the Product Data
 - [ ] Adding the Product-Delete Functionality
 - [ ] Deleting Cart Items
 - [ ] Displaying Cart Items on the Cart Page
