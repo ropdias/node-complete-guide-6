@@ -4,7 +4,7 @@ exports.getAddProduct = (req, res, next) => {
   res.render("admin/edit-product", {
     pageTitle: "Add Product",
     path: "/admin/add-product",
-    editing: false
+    editing: false,
   });
 };
 
@@ -31,16 +31,18 @@ exports.getEditProduct = (req, res, next) => {
     // If we don't have a product and it's undefined:
     if (!product) {
       // We could retrieve a error page (better user experience) but for now we will just redirect:
-      return res.redirect('/'); 
+      return res.redirect("/");
     }
     res.render("admin/edit-product", {
       pageTitle: "Edit Product",
       path: "/admin/edit-product",
       editing: editMode,
-      product: product
+      product: product,
     });
   });
 };
+
+exports.postEditProduct = (req, res, next) => {};
 
 exports.getProducts = (req, res, next) => {
   Product.fetchAll((products) => {

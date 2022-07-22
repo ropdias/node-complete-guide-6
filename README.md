@@ -12,7 +12,7 @@ Section 9 covered:
 - [x] Adding a Cart Model
 - [x] Using Query Params
 - [x] Pre-Populating the Edit Product Page with Data
-- [ ] Linking to the Edit Page
+- [x] Linking to the Edit Page
 - [ ] Editing the Product Data
 - [ ] Adding the Product-Delete Functionality
 - [ ] Deleting Cart Items
