@@ -14,7 +14,7 @@ Section 9 covered:
 - [x] Pre-Populating the Edit Product Page with Data
 - [x] Linking to the Edit Page
 - [x] Editing the Product Data
-- [ ] Adding the Product-Delete Functionality
+- [x] Adding the Product-Delete Functionality
 - [ ] Deleting Cart Items
 - [ ] Displaying Cart Items on the Cart Page
 - [ ] Deleting Cart Items
