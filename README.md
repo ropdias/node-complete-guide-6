@@ -17,7 +17,7 @@ Section 9 covered:
 - [x] Adding the Product-Delete Functionality
 - [x] Deleting Cart Items
 - [x] Displaying Cart Items on the Cart Page
-- [ ] Deleting Cart Items
+- [x] Deleting Cart Items
 - [ ] Fixing a Delete Product Bug
 
 More info: https://www.udemy.com/course/nodejs-the-complete-guide/
