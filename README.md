@@ -16,7 +16,7 @@ Section 9 covered:
 - [x] Editing the Product Data
 - [x] Adding the Product-Delete Functionality
 - [x] Deleting Cart Items
-- [ ] Displaying Cart Items on the Cart Page
+- [x] Displaying Cart Items on the Cart Page
 - [ ] Deleting Cart Items
 - [ ] Fixing a Delete Product Bug
 
