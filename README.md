@@ -10,7 +10,7 @@ Section 9 covered:
 - [x] Rendering the Product Detail View
 - [x] Passing Data with POST Requests
 - [x] Adding a Cart Model
-- [ ] Using Query Params
+- [x] Using Query Params
 - [ ] Pre-Populating the Edit Product Page with Data
 - [ ] Linking to the Edit Page
 - [ ] Editing the Product Data
