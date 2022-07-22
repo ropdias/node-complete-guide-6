@@ -11,7 +11,7 @@ Section 9 covered:
 - [x] Passing Data with POST Requests
 - [x] Adding a Cart Model
 - [x] Using Query Params
-- [ ] Pre-Populating the Edit Product Page with Data
+- [x] Pre-Populating the Edit Product Page with Data
 - [ ] Linking to the Edit Page
 - [ ] Editing the Product Data
 - [ ] Adding the Product-Delete Functionality

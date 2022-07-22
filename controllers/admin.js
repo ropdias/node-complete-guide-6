@@ -4,6 +4,7 @@ exports.getAddProduct = (req, res, next) => {
   res.render("admin/edit-product", {
     pageTitle: "Add Product",
     path: "/admin/add-product",
+    editing: false
   });
 };
 
@@ -19,14 +20,25 @@ exports.postAddProduct = (req, res, next) => {
 };
 
 exports.getEditProduct = (req, res, next) => {
+  // We are already coming from a 'edit-product' route but this was added just to show
+  // how to retrieve data from a query param:
   const editMode = req.query.edit;
   if (!editMode) {
     return res.redirect("/");
   }
-  res.render("admin/edit-product", {
-    pageTitle: "Edit Product",
-    path: "/admin/edit-product",
-    editing: editMode,
+  const prodId = req.params.productId;
+  Product.findById(prodId, (product) => {
+    // If we don't have a product and it's undefined:
+    if (!product) {
+      // We could retrieve a error page (better user experience) but for now we will just redirect:
+      return res.redirect('/'); 
+    }
+    res.render("admin/edit-product", {
+      pageTitle: "Edit Product",
+      path: "/admin/edit-product",
+      editing: editMode,
+      product: product
+    });
   });
 };
 
